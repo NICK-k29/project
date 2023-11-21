@@ -27,6 +27,62 @@ header{
 nav{
     width: 1140px;
     height: 100px;
-    background-color: red;
+    background-color: transparent;
     margin: auto;
+    position: relative;
+}
+.nav-items{
+    width: 200  px;
+    height: 60px;
+    /* background-color: antiquewhite; */
+    text-align: center;
+    font-size: 25px;
+    color: beige;
+    line-height: 3;
+    float: left;
+}
+.nav-items:first-child{
+    background-color: transparent;
+}
+
+.nav-items:first-child img{
+    width: 144px;
+    height: 30px;
+    margin-left: 30px;
+}
+.Pages1{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(129, 152, 172);
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.nav-items:hover .Pages1{
+    opacity: 1;
+    visibility: visible;
+}
+
+.pageC1-items{
+    width: inherit;
+    height: 50px;
+    background-color: azure;
+    align-items: center;
+    color: black;
+}
+.Dropdown{
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    background-color: antiquewhite;
+    left: 100%;
+    top: 400px;
+    opacity: 0;
+    visibility: visible;
+}
+.pageC1-items:hover .Dropdown{
+    opacity: 1;
+    visibility: visible;
 }
