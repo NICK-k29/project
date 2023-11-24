@@ -3,86 +3,124 @@
 }
 main{
     width: 100%;
-    height: 600px;
-    background-color: rgb(56, 50, 50);
+    height: 3000px;
+   
 }
 .slider1{
     width: 100%;
     height: 800px;
     background-image: url(https://preview.colorlib.com/theme/confer/img/bg-img/1.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
 }
-.overlay{
+.overlay1{
     width: 100%;
     height: 800px;
-    background-color:rgb(0, 0,0,0.5);
-}
-header{
-    width: 100%;
-    height: 100px;
-    background-color:rgba(0,0,0, 0.7);
-    
+    background-color: rgba(0, 0, 0, 0.5);
 }
 nav{
+    margin: auto;
     width: 1140px;
     height: 100px;
-    background-color: transparent;
-    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    color: white;
+
+}
+header{
+    height: 100px;
+    width: 100%;
+    position: fixed;
+}
+.logo{
+    margin-top: 35px;
+}
+.nav-item-group{
+    float: right;
+    /* background-color: red; */
+    margin-top: 26px;
+    height: 50px;
+    width: 780px;
+}
+.nav-item{
+    float: left;
+    height: 25px;
+    width: 100px;
+    /* background-color: bisque; */
+    margin-left: 10px;
+    text-align: center;
+    padding-top: 17px;
     position: relative;
 }
-.nav-items{
-    width: 200px;
-    height: 60px;
-    /* background-color: antiquewhite; */
-    text-align: center;
-    font-size: 25px;
-    color: beige;
-    line-height: 3;
+.nav-item :hover{
+    color: #df42b1;
+}
+.get-tickets-button{
     float: left;
+    height: 28px;
+    width: 150px;
+    margin-left: 60px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    padding-top: 12px;
+    margin-top: 5px;
+    background-color: rgb(119, 0, 255);
+    font-size: 14px;
 }
-.nav-items:first-child{
-    background-color: transparent;
+.nav-item-text{
+    color: white;
+    font-weight: bold;
 }
-
-.nav-items:first-child img{
-    width: 144px;
-    height: 30px;
-    margin: 15%, 0%, 0%, 50%;
-}
-.Pages1{
-    width: 300px;
-    height: 400px;
-    background-color: rgb(129, 152, 172);
+.dropdown1{
+    height: 350px;
+    width: 170px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: white;
     position: absolute;
-    top: 100%;
-    opacity: 0;
+    top: 35px;
     visibility: hidden;
-}
-
-.nav-items:hover .Pages1{
-    opacity: 1;
-    visibility: visible;
-}
-
-.pageC1-items{
-    width: inherit;
-    height: 50px;
-    background-color: azure;
-    align-items: center;
-    color: black;
-    padding-left: 10px;
-}
-.Dropdown{
-    position: absolute;
-    width: 200px;
-    height: 250px;
-    background-color: antiquewhite;
-    left: 100%;
-    top: 400px;
     opacity: 0;
-    visibility: visible;
 }
-.pageC1-items:hover .Dropdown{
+.nav-item:hover .dropdown1{
+    visibility: visible;
     opacity: 1;
-    visibility: visible                             ;
+}
+.dropdown_item{
+    color: black;
+    padding-top: 10px;
+    padding-left: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    position: relative;
+}
+.dropdown2{
+    height: 150px;
+    width: 170px;
+    background-color: white;
+  
+    border-radius: 5px 5px 5px 5px;
+    position: absolute;
+    left: 160px;
+    top: -10px;
+    
+    /* opacity: 0;
+    visibility: hidden; */
+}
+.dropdown2:hover {
+    color: #df42b1;
+}
+.dropdown2_item{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    text-align: left;
+    padding-top: 10px;
+    /* background-color: rebeccapurple; */
+    color: black;
+
+    
+}
+.dropdown_item:hover .dropdown2{
+    /* opacity: 1;
+    visibility: visible; */
 }
