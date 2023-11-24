@@ -116,11 +116,37 @@ header{
     text-align: left;
     padding-top: 10px;
     /* background-color: rebeccapurple; */
-    color: black;
-
-    
+    color: black;    
 }
 .dropdown_item:hover .dropdown2{
-    /* opacity: 1;
-    visibility: visible; */
+    opacity: 1;
+    visibility: visible;
+}
+.overlay1{
+   position: absolute;
+  
+}
+.container{
+    height: 300px;
+    width: 600px;
+    background-color: rgba(154, 97, 57, 0.628);
+    text-align: right;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 70px;
+}
+.add{
+    font-size: 20px;
+}
+.info-button{
+         float: left; 
+         height: 28px;
+        width: 150px;
+        margin-left: 60px;
+        border-radius: 20px 20px 20px 20px;
+        text-align: center;
+        padding-top: 12px;
+        margin-top: 5px; 
+        background-color: rgb(119, 0, 255);
+        font-size: 14px;
 }
