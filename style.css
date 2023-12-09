@@ -9,13 +9,16 @@ main{
 .slider1{
     width: 100%;
     height: 800px;
-    background-image: url(https://preview.colorlib.com/theme/confer/img/bg-img/1.jpg);
+    background-image: url(../images/1.jpg.webp);
     background-size: cover;
+
 }
 .overlay1{
     width: 100%;
     height: 800px;
     background-color: rgba(0, 0, 0, 0.5);
+    top: 0%;
+    position: absolute;
 }
 nav{
     margin: auto;
@@ -29,11 +32,12 @@ nav{
 header{
     height: 100px;
     width: 100%;
-    position: fixed;
+    position: absolute;
 }
 .logo{
-    margin-top: 35px;
+    padding-top: 30px;
 }
+
 .nav-item-group{
     float: right;
     /* background-color: red; */
@@ -63,7 +67,7 @@ header{
     text-align: center;
     padding-top: 12px;
     margin-top: 5px;
-    background-color: rgb(119, 0, 255);
+    background-color: #d03fd0b5;
     font-size: 14px;
 }
 .nav-item-text{
@@ -75,7 +79,7 @@ header{
     width: 170px;
     border-radius: 5px 5px 5px 5px;
     background-color: white;
-    position: absolute;
+    position: relative;
     top: 35px;
     visibility: hidden;
     opacity: 0;
@@ -116,40 +120,38 @@ header{
     text-align: left;
     padding-top: 10px;
     /* background-color: rebeccapurple; */
-    color: black;    
+    color: black;
+
+    
 }
 .dropdown_item:hover .dropdown2{
     opacity: 1;
     visibility: visible;
 }
-.overlay1{
-    /* position: absolute; */
-   
- }
- .container{
-     height: 300px;
-     width: 550;
-     /* background-color: rgba(154, 97, 57, 0.628); */
+.container{
+    height: 350px;
+    width: 550;
+    /* background-color: rgba(154, 57, 133, 0.628); */
      text-align: right;
-     font-weight: bold;
-     color: aliceblue;
-     font-size: 87px;
-     margin: 300px 0px 0px 600px;
-     position: absolute;
- }
- .add{
-     font-size: 23px;
-     background-color: rgba(60, 58, 58, 0.594);
- }
- .info-button{
-         float: right;
-         height: 35px;
-         width: 200px;
-         /* margin-left: 60px; */
-         border-radius: 30px 30px 30px 30px;
-         text-align: center;
-         padding-top: 12px;
-         margin-top: 45px;
-         background-color: rgb(119, 0, 255);
-         font-size: 20px;
- }
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 87px;
+    margin-top: 350px;
+    right: 90px;
+    position: relative;
+}
+.add{
+    font-size: 23px;
+    /* background-color: rgba(60, 58, 58, 0.594); */
+}
+.info-button{
+        float: right;
+        height: 35px;
+        width: 200px;
+        border-radius: 30px 30px 30px 30px;
+        text-align: center;
+        padding-top: 12px;
+        margin-top: 50px;
+        background-color: rgb(119, 0, 255);
+        font-size: 20px;
+}
