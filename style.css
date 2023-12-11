@@ -161,55 +161,60 @@ header{
     background-color: #151853;
 }
 .mid-div{
-    width: 900px;
+    width: 1000px;
     height: 500px;
     /* background-color: black; */
-    margin-left: 15%;
+    padding: 90px;
 }
 .left-text{
     width: 500px;
     height: 500px;
     /* background-color: aquamarine; */
     float: left;
-    padding-top: 90px;
 }
 .right-img{
-    width: 400px;
-    height: 500px;
-    background-color: brown;
-    background-image: url(../images/2.png);
+    width: 440px;
+    height: 450px;
+    /* background-color: brown; */
     float: right;
+    margin-left: 1px;
+
+
 }
 .h6{
-    font-size: 11px;
-    font-family: sans-serif;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
     text-decoration: underline;
     color: #df42b1;
     margin-top: 10px;
+    padding-top: 10px;
 }
 .h3{
-    font-size: 30px;
-    font-family: Poppins,sans-serif;
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
     color: #ffffff;
     margin-top: 20px;
+    padding-top: 5px;
 }
 .pragraph{
-    width: 450px;
+    width: 600px;
     height: 100px;
     color: #ffffff;
-    font-size: 15px;
-    font-family: sans-serif;
-    margin-top: 16px;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
     text-align: left;
+    line-height: 1.5;
 }
 .INTERESTED{
         height: 30px;
         width: 130px;
         border-radius: 30px 30px 30px 30px;
         text-align: center;
-        padding-top: 12px;
-        margin-top: 90px;
-        background-color: rgb(119, 0, 255);
+        padding-top: 20px;
+        margin-top: 100px;
+        background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
         font-size: 11px;
         color: #ffffff;
 }
