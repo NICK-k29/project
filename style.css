@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+
 }
 main{
     width: 100%;
@@ -67,8 +71,11 @@ header{
     text-align: center;
     padding-top: 12px;
     margin-top: 5px;
-    background-color: #d03fd0b5;
+    background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
     font-size: 14px;
+}
+.get-tickets-button :hover{
+    color: #ffffff;
 }
 .nav-item-text{
     color: white;
@@ -101,7 +108,6 @@ header{
     height: 150px;
     width: 170px;
     background-color: white;
-  
     border-radius: 5px 5px 5px 5px;
     position: absolute;
     left: 160px;
@@ -121,8 +127,6 @@ header{
     padding-top: 10px;
     /* background-color: rebeccapurple; */
     color: black;
-
-    
 }
 .dropdown_item:hover .dropdown2{
     opacity: 1;
@@ -132,32 +136,34 @@ header{
     height: 350px;
     width: 550;
     /* background-color: rgba(154, 57, 133, 0.628); */
-     text-align: right;
-    font-weight: bold;
+    text-align: right;
+    font-weight: 700;
     color: aliceblue;
-    font-size: 87px;
-    margin-top: 350px;
+    font-size: 90px;
+    margin-top: 290px;
     right: 90px;
     position: relative;
 }
 .add{
     font-size: 23px;
-    /* background-color: rgba(60, 58, 58, 0.594); */
+    background-color: rgba(60, 58, 58, 0.594);
 }
 .info-button{
         float: right;
-        height: 35px;
+        height: 30px;
         width: 200px;
         border-radius: 30px 30px 30px 30px;
         text-align: center;
+        letter-spacing: 0.5px;
         padding-top: 12px;
         margin-top: 50px;
-        background-color: rgb(119, 0, 255);
-        font-size: 20px;
+        /* background-color: rgb(119, 0, 255); */
+        background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
+        font-size: 15px;
 }
 .slider2{
     width: 100%;
-    height: 800px;
+    height: 900px;
     background-color: #151853;
 }
 .mid-div{
@@ -216,5 +222,168 @@ header{
         margin-top: 100px;
         background: linear-gradient(120deg, #505add 0%, #df42b1 100%);
         font-size: 11px;
-        color: #ffffff;
+        color: #ffffff;    
+}
+.INTERESTED :hover{
+    background-color: #ffffff;
+}
+
+.countdown{
+    width: 100%;
+    height: 250px;
+    /* background-color: #df42b1; */
+}
+.container-2{
+    /* background-color: aqua; */
+    display: flex;
+    padding-left: 40px;
+}
+.mid-div-2{
+    width: 100%;
+    height: 230px;
+    /* background-color: #505add; */
+    display: flex;
+    padding-left: 60px;
+}
+.left-text-2{
+    width: 22%;
+    height: 185px;
+    /* background-color: yellow; */
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    /* margin-top: 30px; */
+    font-size: 18px;
+}
+.Date{
+    font-size: 13px;
+    color: #df42b1;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+.countdown-timer{
+    width: 70%;
+    height: 125px;
+    display: flex;
+    /* background-color: aqua; */
+}
+.timer-tile{
+    width: 30%;
+    height: 90px;
+    padding: 25px;
+    margin: 0 11px;  
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer-value{
+    width: 75px; 
+    height: 87px;
+    font-weight: 500;
+    font-size: 60px;
+    
+}
+.timer-lable{
+    width: 55px; 
+    height: 20px; 
+    margin-top: -10px;
+    font-size: 18px; 
+    color: #5d5e8d; 
+    font-weight: 500;
+    text-align: center;
+}
+.slider3{
+    position: relative;
+}
+.our_speakings_overlay{
+    background-image: url('https://preview.colorlib.com/theme/confer/img/bg-img/3.jpg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1226px;
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: -1;
+    background: #c63fa4;
+    background-image: -webkit-linear-gradient(120deg, #df42b1 0%, #505add 100%);
+    opacity: 0.9;
+}
+.our_speakings_main{
+    padding-top: 100px;
+    width: 100%;
+  
+}
+.our_speakings_image_container{
+    width: 1150px;
+    height: 930.31px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our_speakings_main_container{
+      width: 343.33px;
+      height: 372.16px;
+      margin-left: 20px;
+      margin-right: 20px;
+       border-radius: 10px;
+       display: flex;
+       align-items: end;
+       position: relative;
+       z-index: 1;
+       overflow-y: hidden;
+       background:linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0) 100%)
+}
+.social_info{
+    position: absolute;
+    width: 45px;
+    height: 152px;
+    display: flex;
+    flex-direction: column;
+    top:0;
+    right: 0;
+    text-align: center;
+    background-color: #c63fa4;
+    border-radius:0 10px 0 10px;
+    transition-duration: 800ms;
+    top:-152px;
+    z-index: 0; 
+}
+.our_speakings_main_container :hover .social_info{
+    top: 0;
+   
+}
+.speaker-info{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    width: 198.28px;
+    height: 51px;
+}
+
+.view_all_speaker{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.view_all_speaker_btn{
+    background-color: rgba(255, 255, 255, 0.0);
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    height: 46px;
+    padding: 0 25px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 23px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 42px;
+    font-weight: 500;
+    transition-duration:500ms;
+    width:214.28px
+}
+.view_all_speaker_btn:hover{
+    background-color:rgba(198, 63, 164, 1.0);
+    border: 2px solid #c63fa4;
 }
